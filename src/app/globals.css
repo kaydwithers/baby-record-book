@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  color: black;
+  @apply text-[#292420] bg-[#f0d09a];
 }
 
 @layer utilities {
@@ -18,22 +18,26 @@ a {
 
 h1 {
   @apply font-semibold;
-  font-size: max(48px, min(5vw, 76px));
+  font-size: max(40px, min(5vw, 60px));
 }
 
 h2 {
   @apply font-semibold;
-  font-size: max(15px, min(2vw, 40px));
+  font-size: max(20px, min(2vw, 40px));
 }
 
 p,
-li {
-  font-size: max(15px, min(2vw, 20px));
+li,
+textarea {
+  font-size: max(16px, min(2vw, 20px));
 }
 
 textarea {
   @apply bg-transparent border-b-4 border-b-slate-500 border-dashed;
-  font-size: max(15px, min(2vw, 40px));
+}
+
+strong {
+  @apply font-semibold;
 }
 
 .bg-primary {

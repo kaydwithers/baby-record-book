@@ -15,7 +15,7 @@ export default function Home() {
         <h2 className="mb-4">Chloe Withers</h2>
 
         <div className="flex justify-center">
-          <div className="w-2/3 lg:w-1/3 rounded-full overflow-hidden">
+          <div className="w-64 lg:w-96 rounded-full overflow-hidden">
             <Image
               className="w-full h-full object-cover aspect-square"
               src="/image/chloe.jpg"

@@ -17,8 +17,8 @@ export const Chapter = ({ chapter }: IChapter) => {
   const router = useRouter();
 
   return (
-    <div className="relative flex flex-col">
-      <div className="absolute -top-6 lg:-top-16 left-0 lg:-left-16">
+    <div className="flex flex-col">
+      <div className="mb-2 lg:mb-8">
         <button
           className="flex items-center gap-x-2 lg:gap-x-4 underline underline-offset-4"
           onClick={() => router.back()}
@@ -32,22 +32,25 @@ export const Chapter = ({ chapter }: IChapter) => {
       </div>
 
       <div className="pt-8 lg:pt-0 mb-8">
-        <Heading>{chapter.title}</Heading>
+        <Heading variant="h2">{chapter.title}</Heading>
       </div>
 
       <div className="flex flex-col gap-y-8 mb-24">
         {chapter.questionItems.map((question, index) => (
           <div className="flex flex-col gap-y-4" key={index}>
-            <h2 className="">{question.question}</h2>
+            <p className="">
+              <strong>{question.question}</strong>
+            </p>
 
             {question.answerItems.map((answer, index) => (
-              <textarea key={index} name="text" value={answer} />
+              // <textarea key={index} name="text" value={answer} />
+              <p key={index}>{answer}</p>
             ))}
           </div>
         ))}
       </div>
 
-      <div className="flex gap-8">
+      <div className="flex flex-col lg:flex-row gap-8">
         {chapter.mediaItems.map((item, index) => (
           <div key={index} className="">
             <Image

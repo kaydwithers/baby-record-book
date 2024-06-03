@@ -189,7 +189,7 @@ export const chapters: Array<IChapters> = [
         answerItems: ["Adele Withers, Trevor Withers", "Giana"],
       },
       {
-        question: "Your paents",
+        question: "Your parents",
         answerItems: ["Kayd Withers", "Eva Kartiwa"],
       },
       { question: "You", answerItems: ["Chloe Giana Withers"] },
