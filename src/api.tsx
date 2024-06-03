@@ -33,7 +33,7 @@ export const chapters: Array<IChapters> = [
     mediaItems: [
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "Ultrasound",
         type: "image",
       },
@@ -101,7 +101,7 @@ export const chapters: Array<IChapters> = [
     mediaItems: [
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "",
         type: "image",
       },
@@ -128,7 +128,7 @@ export const chapters: Array<IChapters> = [
     mediaItems: [
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "A photo of some of your first things.",
         type: "image",
       },
@@ -148,7 +148,7 @@ export const chapters: Array<IChapters> = [
     mediaItems: [
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "A photo of you at home",
         type: "image",
       },
@@ -167,7 +167,7 @@ export const chapters: Array<IChapters> = [
     mediaItems: [
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "A photo of you and your parents",
         type: "image",
       },
@@ -197,7 +197,7 @@ export const chapters: Array<IChapters> = [
     mediaItems: [
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "A photo of you and your family",
         type: "image",
       },
@@ -239,7 +239,7 @@ export const chapters: Array<IChapters> = [
     mediaItems: [
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "A photo of your first special moment.",
         type: "image",
       },
@@ -287,7 +287,7 @@ export const chapters: Array<IChapters> = [
     mediaItems: [
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "A photo of a first trip",
         type: "image",
       },
@@ -300,7 +300,7 @@ export const chapters: Array<IChapters> = [
     mediaItems: [
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "",
         type: "image",
       },
@@ -313,7 +313,7 @@ export const chapters: Array<IChapters> = [
     mediaItems: [
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "",
         type: "image",
       },
@@ -339,7 +339,7 @@ export const chapters: Array<IChapters> = [
     mediaItems: [
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "",
         type: "image",
       },
@@ -381,13 +381,13 @@ export const chapters: Array<IChapters> = [
     mediaItems: [
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "A photo of you sitting up",
         type: "image",
       },
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "A photo of a special milestone",
         type: "image",
       },
@@ -406,7 +406,7 @@ export const chapters: Array<IChapters> = [
     mediaItems: [
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "A first Christmas photo",
         type: "image",
       },
@@ -432,13 +432,13 @@ export const chapters: Array<IChapters> = [
     mediaItems: [
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "A photo of some of your favourite things",
         type: "image",
       },
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "A photo of you in your favourite outfit",
         type: "image",
       },
@@ -458,7 +458,7 @@ export const chapters: Array<IChapters> = [
     mediaItems: [
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "A photo of you on your first birthday",
         type: "image",
       },
@@ -478,7 +478,7 @@ export const chapters: Array<IChapters> = [
     mediaItems: [
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "A photo of you and your family at your first birthday party",
         type: "image",
       },
@@ -507,7 +507,7 @@ export const chapters: Array<IChapters> = [
     mediaItems: [
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "",
         type: "image",
       },
@@ -520,13 +520,13 @@ export const chapters: Array<IChapters> = [
     mediaItems: [
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "A photo of you in your first months",
         type: "image",
       },
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "A photo of you on your twelfth month",
         type: "image",
       },
@@ -539,7 +539,7 @@ export const chapters: Array<IChapters> = [
     mediaItems: [
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "",
         type: "image",
       },
@@ -552,25 +552,25 @@ export const chapters: Array<IChapters> = [
     mediaItems: [
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "Winter",
         type: "image",
       },
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "Spring",
         type: "image",
       },
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "Summer",
         type: "image",
       },
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "Autumn",
         type: "image",
       },
@@ -583,7 +583,7 @@ export const chapters: Array<IChapters> = [
     mediaItems: [
       {
         id: "",
-        media_url: "/images/",
+        media_url: "",
         caption: "",
         type: "image",
       },

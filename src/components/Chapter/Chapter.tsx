@@ -50,21 +50,23 @@ export const Chapter = ({ chapter }: IChapter) => {
         ))}
       </div>
 
-      <div className="flex flex-col lg:flex-row gap-8">
-        {chapter.mediaItems.map((item, index) => (
-          <div key={index} className="">
-            <Image
-              className="w-full h-full object-cover"
-              src={item.media_url}
-              alt={item.caption}
-              height="480"
-              width="480"
-              sizes="(max-width: 600px) 280px, 480px"
-              layout="responsive"
-            />
-          </div>
-        ))}
-      </div>
+      {chapter.mediaItems.some((item) => item.media_url) && (
+        <div className="flex flex-col lg:flex-row gap-8">
+          {chapter.mediaItems.map((item, index) => (
+            <div key={index} className="">
+              <Image
+                className="w-full h-full object-cover"
+                src={item.media_url}
+                alt={item.caption}
+                height="480"
+                width="480"
+                sizes="(max-width: 600px) 280px, 480px"
+                layout="responsive"
+              />
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 };
