@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply text-[#292420] bg-[#f0d09a];
+  @apply text-[#292420] bg-[#faefdd];
 }
 
 @layer utilities {
@@ -47,14 +47,4 @@ textarea {
 
 strong {
   @apply font-semibold;
-}
-
-.bg-primary {
-  background-color: #e5e5f7;
-  background-image: radial-gradient(#32487e 2px, transparent 2px),
-    radial-gradient(#32487e 2px, #e5e5f7 2px);
-  background-size: 80px 80px;
-  background-position:
-    0 0,
-    40px 40px;
 }
