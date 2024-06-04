@@ -3,8 +3,8 @@
 import { useRouter } from "next/navigation";
 
 import { ChevronLeftIcon } from "@heroicons/react/24/solid";
-import { Emoji } from "@/components/Emoji/Emoji";
 import { Heading } from "@/components/Heading/Heading";
+import { RandomEmoji } from "@/components/RandomEmoji/RandomEmoji";
 
 import Image from "next/image";
 
@@ -31,7 +31,7 @@ export const Chapter = ({ chapter }: IChapter) => {
             />
 
             <span className="text-4xl">
-              <Emoji />
+              <RandomEmoji />
             </span>
           </div>
 
