@@ -35,7 +35,7 @@ export const Chapter = ({ chapter }: IChapter) => {
         <Heading variant="h2">{chapter.title}</Heading>
       </div>
 
-      <div className="flex flex-col gap-y-8 mb-24">
+      <div className="flex flex-col gap-y-8 lg:gap-y-12 mb-24">
         {chapter.questionItems.map((question, index) => (
           <div className="flex flex-col gap-y-2" key={index}>
             <p className="">

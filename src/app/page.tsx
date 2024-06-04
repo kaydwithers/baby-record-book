@@ -29,7 +29,7 @@ export default function Home() {
         </div>
       </div>
 
-      <ol className="flex flex-col gap-y-4">
+      <ol className="flex flex-col gap-y-4 lg:gap-y-6">
         {chapters.map((item, index) => (
           <li key={item.id} className="">
             {index + 1}. <Link href={item.id}>{item.title}</Link>
