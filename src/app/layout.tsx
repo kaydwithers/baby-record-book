@@ -8,6 +8,7 @@ const lora = Lora({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Baby Record Book",
   description: "For precious memories of your baby's first year",
+  metadataBase: new URL("https://baby-record-book.vercel.app/"),
 };
 
 export default function RootLayout({
