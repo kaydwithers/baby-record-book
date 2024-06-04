@@ -24,10 +24,10 @@ export const Chapter = ({ chapter }: IChapter) => {
           onClick={() => router.back()}
         >
           <ChevronLeftIcon
-            className="h-6 lg:h-10 w-6 lg:w-10"
+            className="h-6 lg:h-8 w-6 lg:w-8"
             role="presentation"
           />
-          <p className="">Back</p>
+          <p>Back</p>
         </button>
       </div>
 
@@ -37,7 +37,7 @@ export const Chapter = ({ chapter }: IChapter) => {
 
       <div className="flex flex-col gap-y-8 mb-24">
         {chapter.questionItems.map((question, index) => (
-          <div className="flex flex-col gap-y-4" key={index}>
+          <div className="flex flex-col gap-y-2" key={index}>
             <p className="">
               <strong>{question.question}</strong>
             </p>

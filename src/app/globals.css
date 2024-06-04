@@ -26,6 +26,11 @@ h2 {
   font-size: max(20px, min(2vw, 40px));
 }
 
+img {
+  @apply p-4;
+  border: 0.5px solid #2c2622;
+}
+
 p,
 li,
 textarea {

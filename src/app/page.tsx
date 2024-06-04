@@ -12,12 +12,12 @@ export default function Home() {
       <Heading>Baby Record Book</Heading>
 
       <div className="">
-        <h2 className="mb-4">Chloe Withers</h2>
+        <h2 className="mb-8">Chloe Withers</h2>
 
         <div className="flex justify-center">
-          <div className="w-64 lg:w-96 rounded-full overflow-hidden">
+          <div className="w-64 lg:w-96">
             <Image
-              className="w-full h-full object-cover aspect-square"
+              className="w-full h-full"
               src="/image/chloe.jpg"
               alt=""
               height="480"
