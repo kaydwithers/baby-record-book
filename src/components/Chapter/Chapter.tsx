@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 
 import { ChevronLeftIcon } from "@heroicons/react/24/solid";
+import { Emoji } from "@/components/Emoji/Emoji";
 import { Heading } from "@/components/Heading/Heading";
 
 import Image from "next/image";
@@ -20,14 +21,23 @@ export const Chapter = ({ chapter }: IChapter) => {
     <div className="flex flex-col">
       <div className="mb-2 lg:mb-8">
         <button
-          className="flex items-center gap-x-2 lg:gap-x-4 underline underline-offset-4 hover:no-underline"
+          className="group flex items-center gap-x-2 lg:gap-x-4"
           onClick={() => router.back()}
         >
-          <ChevronLeftIcon
-            className="h-6 lg:h-8 w-6 lg:w-8"
-            role="presentation"
-          />
-          <p>Back</p>
+          <div className="flex items-center gap-x-2">
+            <ChevronLeftIcon
+              className="h-6 lg:h-8 w-6 lg:w-8"
+              role="presentation"
+            />
+
+            <span className="text-4xl">
+              <Emoji />
+            </span>
+          </div>
+
+          <p className="flex items-center underline underline-offset-4 group-hover:no-underline">
+            Back
+          </p>
         </button>
       </div>
 

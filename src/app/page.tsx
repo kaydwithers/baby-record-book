@@ -17,7 +17,7 @@ export default function Home() {
         <div className="flex justify-center">
           <div className="w-64 lg:w-96">
             <Image
-              className="w-full h-full"
+              className="w-full h-full aspect-auto"
               src="/image/chloe.jpg"
               alt=""
               height="480"
