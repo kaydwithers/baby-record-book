@@ -36,6 +36,17 @@ export default function Home() {
           </li>
         ))}
       </ol>
+
+      <div className="flex flex-wrap justify-center items-center text-4xl gap-2">
+        <div className="">🦒</div>
+        <div className="">👶</div>
+        <div className="">🐢</div>
+        <div className="">🧸</div>
+        <div className="">🐼</div>
+        <div className="">🐱</div>
+        <div className="">🐶</div>
+        <div className="">🦋</div>
+      </div>
     </div>
   );
 }
