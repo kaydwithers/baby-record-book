@@ -20,7 +20,7 @@ export const Chapter = ({ chapter }: IChapter) => {
     <div className="flex flex-col">
       <div className="mb-2 lg:mb-8">
         <button
-          className="flex items-center gap-x-2 lg:gap-x-4 underline underline-offset-4"
+          className="flex items-center gap-x-2 lg:gap-x-4 underline underline-offset-4 hover:no-underline"
           onClick={() => router.back()}
         >
           <ChevronLeftIcon

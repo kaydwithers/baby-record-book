@@ -8,11 +8,11 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-y-12 text-center">
+    <div className="flex flex-col gap-y-8 lg:gap-y-12 text-center">
       <Heading>Baby Record Book</Heading>
 
       <div className="">
-        <h2 className="mb-8">Chloe Withers</h2>
+        <h2 className="mb-8 lg:mb-10">Chloe Withers</h2>
 
         <div className="flex justify-center">
           <div className="w-64 lg:w-96">

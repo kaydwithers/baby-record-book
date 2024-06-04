@@ -16,6 +16,10 @@ a {
   @apply underline underline-offset-4;
 }
 
+a:hover {
+  @apply no-underline;
+}
+
 h1 {
   @apply font-semibold;
   font-size: max(40px, min(5vw, 60px));
