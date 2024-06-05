@@ -23,11 +23,17 @@ export const chapters: Array<IChapters> = [
         answerItems: [""],
       },
       { question: "Our reaction", answerItems: [""] },
-      { question: "Who we told", answerItems: ["Dad: I didn't tell anyone for a while. And then I told my friend Andrew. Then I told my parents and they were shocked.", "Mum: "] },
+      {
+        question: "Who we told",
+        answerItems: [
+          "Dad: I didn't tell anyone for a while. And then I told my friend Andrew. Then I told my parents and they were shocked.",
+          "Mum: ",
+        ],
+      },
       { question: "We prepared for you by", answerItems: [""] },
       { question: "Did we expect a boy or a girl?", answerItems: [""] },
       { question: "What we thought you'd be like", answerItems: [""] },
-      { question: "You were due on", answerItems: ["25th of April 2024"] },
+      { question: "You were due on", answerItems: ["21st of April 2024"] },
     ],
     mediaItems: [
       {
