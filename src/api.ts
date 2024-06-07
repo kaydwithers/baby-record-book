@@ -22,7 +22,7 @@ export const chapters: Array<IChapters> = [
         question: "When we first found out about you",
         answerItems: [""],
       },
-      { question: "Our reaction", answerItems: [""] },
+      { question: "Our reaction", answerItems: ["Dad: Whoa!", "Mum: "] },
       {
         question: "Who we told",
         answerItems: [
@@ -31,8 +31,17 @@ export const chapters: Array<IChapters> = [
         ],
       },
       { question: "We prepared for you by", answerItems: [""] },
-      { question: "Did we expect a boy or a girl?", answerItems: [""] },
-      { question: "What we thought you'd be like", answerItems: [""] },
+      {
+        question: "Did we expect a boy or a girl?",
+        answerItems: ["We didn't mind either."],
+      },
+      {
+        question: "What we thought you'd be like",
+        answerItems: [
+          "Dad: I thought you might look a little bit like me, but you didn't.",
+          "Mum: ",
+        ],
+      },
       { question: "You were due on", answerItems: ["21st of April 2024"] },
     ],
     mediaItems: [
@@ -61,7 +70,7 @@ export const chapters: Array<IChapters> = [
       {
         question: "Had your name been decided?",
         answerItems: [
-          "No, it was a very tough decision. We had about 100 names. We liked Xena, Aerith, Avery, Aurora. A couple of days after you were born we liked Sofie (From the movie Kill Bill) or Chloe (From the video game Final Fantasy 7). We chose Chloe for several reasons. Flynn liked it best. It went well with Cookie. It was rarer than Sofie.",
+          "It was a very tough decision. We had about 100 names. A couple of days after you were born we decided on Chloe.",
         ],
       },
       {
@@ -163,11 +172,26 @@ export const chapters: Array<IChapters> = [
     id: "you-and-your-family",
     title: "You and your family",
     questionItems: [
-      { question: "Your full name", answerItems: [""] },
-      { question: "Why was it chosen?", answerItems: [""] },
-      { question: "Other names you might have been given", answerItems: [""] },
-      { question: "Your family", answerItems: [""] },
-      { question: "Things your family said about you", answerItems: [""] },
+      { question: "Your full name", answerItems: ["Chloe Giana Withers"] },
+      {
+        question: "Why was it chosen?",
+        answerItems: [
+          "We had about 100 names. In the end we liked Sofie and Chloe. We chose Chloe for several reasons. Flynn liked it best. It went well with Cookie. It was rarer than Sofie. Chloe was a character in a video game called Final Fantasy 7 Rebirth.",
+          "Giana was Eva's mothers name.",
+        ],
+      },
+      {
+        question: "Other names you might have been given",
+        answerItems: ["Aurora", "Xena", "Sofie"],
+      },
+      {
+        question: "Your family",
+        answerItems: ["Kayd, Eva, Cookie"],
+      },
+      {
+        question: "Things your family said about you",
+        answerItems: ["Very cute.", "So cute!", "Wow, so much hair!"],
+      },
     ],
     mediaItems: [
       {
@@ -185,17 +209,20 @@ export const chapters: Array<IChapters> = [
       {
         question: "Your great grandparents",
         answerItems: [
-          "Clive Withers (Great grandpa), Val Withers (Great grandma), Dorothy Shirchma, ",
-          "",
+          "Withers: Clive Withers (Great grandpa), Val Withers (Great grandma), Dorothy Shirchma, ",
+          "Kartiwa: Unknown",
         ],
       },
       {
         question: "Your grandparents",
-        answerItems: ["Adele Withers, Trevor Withers", "Giana"],
+        answerItems: [
+          "Withers: Adele Withers, Trevor Withers",
+          "Kartiwa: Tjhie Kwat Gien, Arif Fatah Kartiwa",
+        ],
       },
       {
         question: "Your parents",
-        answerItems: ["Kayd Withers", "Eva Kartiwa"],
+        answerItems: ["Kayd Withers", "Eva Mustika Kartiwa"],
       },
       { question: "You", answerItems: ["Chloe Giana Withers"] },
     ],
