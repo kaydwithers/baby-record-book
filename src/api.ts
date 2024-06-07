@@ -176,7 +176,7 @@ export const chapters: Array<IChapters> = [
       {
         question: "Why was it chosen?",
         answerItems: [
-          "We had about 100 names. In the end we liked Sofie and Chloe. We chose Chloe for several reasons. Flynn liked it best. It went well with Cookie. It was rarer than Sofie. Chloe was a character in a video game called Final Fantasy 7 Rebirth.",
+          "We had about 100 names. In the end we liked Sofie and Chloe. We chose Chloe for several reasons. Flynn liked it best. It went well with Cookie. It was rarer than Sofie. Chloe was a character in a video game called Final Fantasy 7 Rebirth. Sofie was a character from the movie Kill Bill.",
           "Giana was Eva's mothers name.",
         ],
       },
@@ -355,18 +355,23 @@ export const chapters: Array<IChapters> = [
     id: "early-routines",
     title: "Early routines",
     questionItems: [
-      { question: "6 am", answerItems: [""] },
-      { question: "8 am", answerItems: [""] },
-      { question: "10 am", answerItems: [""] },
-      { question: "12 pm", answerItems: [""] },
-      { question: "2 pm", answerItems: [""] },
-      { question: "4 pm", answerItems: [""] },
-      { question: "6 pm", answerItems: [""] },
-      { question: "8 pm", answerItems: [""] },
-      { question: "10 pm", answerItems: [""] },
-      { question: "12 am", answerItems: [""] },
-      { question: "2 am", answerItems: [""] },
-      { question: "4 am", answerItems: [""] },
+      { question: "6 am", answerItems: ["Wake up, play, feed."] },
+      { question: "8 am", answerItems: ["Wake up, play, feed."] },
+      { question: "10 am", answerItems: ["Wake up, play, feed."] },
+      { question: "12 pm", answerItems: ["Wake up, play, feed."] },
+      { question: "2 pm", answerItems: ["Wake up, play, feed."] },
+      { question: "4 pm", answerItems: ["Wake up, play, feed."] },
+      { question: "6 pm", answerItems: ["Wake up, play, feed."] },
+      { question: "8 pm", answerItems: ["Wake up, play, feed."] },
+      { question: "10 pm", answerItems: ["Wake up, play, feed."] },
+      { question: "12 am", answerItems: ["Wake up, play, feed."] },
+      {
+        question: "2 am",
+        answerItems: [
+          "Wake up, play, feed. One time you did sleep for 6 hours! It was awesome.",
+        ],
+      },
+      { question: "4 am", answerItems: ["Wake up, play, feed."] },
     ],
     mediaItems: [
       {
