@@ -131,11 +131,11 @@ export const chapters: Array<IChapters> = [
       },
       { question: "Your first toys", answerItems: [""] },
       { question: "The first place you slept", answerItems: [""] },
-      { question: "Your first gifts", answerItems: [""] },
+      { question: "Your first gifts", answerItems: ["A lot of clothes."] },
       {
         question: "Your first party",
         answerItems: [
-          "Oma's 70th Birthday. You slept for most of it. When you cried Aunty Haeli held you and looked after you. Everyone said you were very cute.",
+          "Oma's 70th Birthday at Jason's Restaurant in Upper Beaconsfield. When you cried Aunty Haeli held you and looked after you. Everyone said you were very cute. It was very cold outside. The room was very noisy but you slept through it.",
         ],
       },
     ],
@@ -153,11 +153,22 @@ export const chapters: Array<IChapters> = [
     title: "Taking you home",
     questionItems: [
       { question: "When you arrived home", answerItems: [""] },
-      { question: "How did you travel home", answerItems: [""] },
-      { question: "Your address", answerItems: [""] },
+      {
+        question: "How did you travel home",
+        answerItems: ["In a car seat in our 2016 Renault Megane."],
+      },
+      {
+        question: "Your address",
+        answerItems: ["Unit 7, 40-42 Percy St, Newtown, Victoria."],
+      },
       { question: "What you wore", answerItems: [""] },
       { question: "Your visitors", answerItems: [""] },
-      { question: "What was the day like?", answerItems: [""] },
+      {
+        question: "What was the day like?",
+        answerItems: [
+          "We tried to stay at the hospital one more night because Eva was having trouble breast feeding. And we liked the free food from room service. But they told us it's okay to go home.",
+        ],
+      },
     ],
     mediaItems: [
       {
