@@ -63,7 +63,7 @@ export const Chapter = ({ chapter }: IChapter) => {
       {chapter.mediaItems.some((item) => item.media_url) && (
         <div className="flex flex-col lg:flex-row gap-8">
           {chapter.mediaItems.map((item, index) => (
-            <div key={index} className="">
+            <div key={index} className="image">
               <Image
                 className="w-full h-full object-cover"
                 src={item.media_url}

@@ -3,20 +3,20 @@
 @tailwind utilities;
 
 :root {
-  --background-rgb: 250, 239, 221;
-  --foreground-rgb: 0, 0, 0;
+  --background-rgb-dark: 29, 31, 34;
+  --foreground-rgb-dark: 255, 255, 255;
+  --background-rgb-light: 250, 239, 221;
+  --foreground-rgb-light: 41, 36, 32;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background-rgb: 29, 31, 34;
-    --foreground-rgb: 255, 255, 255;
-  }
+.light {
+  background-color: rgb(var(--background-rgb-light));
+  color: rgb(var(--foreground-rgb-light));
 }
 
-body {
-  background-color: rgb(var(--background-rgb));
-  color: rgb(var(--foreground-rgb));
+.dark {
+  background-color: rgb(var(--background-rgb-dark));
+  color: rgb(var(--foreground-rgb-dark));
 }
 
 @layer utilities {
@@ -43,11 +43,6 @@ h2 {
   font-size: max(20px, min(2vw, 40px));
 }
 
-img {
-  @apply p-4;
-  border: 0.5px solid rgb(var(--foreground-rgb));
-}
-
 p,
 li,
 textarea {
@@ -60,4 +55,8 @@ textarea {
 
 strong {
   @apply font-semibold;
+}
+
+.image {
+  @apply p-4 border border-current;
 }

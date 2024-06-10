@@ -1,7 +1,7 @@
 import { chapters } from "@/api";
-import { useRouter } from "next/router";
 
 import { Heading } from "@/components/Heading/Heading";
+import { ThemeToggleButton } from "@/components/ThemeToggleButton/ThemeToggleButton";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -15,7 +15,7 @@ export default function Home() {
         <h2 className="mb-8 lg:mb-10">Chloe Withers</h2>
 
         <div className="flex justify-center">
-          <div className="w-64 lg:w-96">
+          <div className="image w-64 lg:w-96">
             <Image
               className="w-full h-full aspect-auto"
               src="/image/chloe.jpg"
@@ -46,6 +46,9 @@ export default function Home() {
         <div className="">🐱</div>
         <div className="">🐶</div>
         <div className="">🦋</div>
+        <div className="">
+          <ThemeToggleButton />
+        </div>
       </div>
     </div>
   );
