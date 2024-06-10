@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={lora.className}>
-        <main className="m-4 lg:m-6 border border-black">
+        <main className="m-4 lg:m-6 border border-current">
           <div className="container mx-auto px-6 py-12 lg:px-24 lg:py-24 w-full">
             {children}
           </div>

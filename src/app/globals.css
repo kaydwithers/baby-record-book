@@ -2,8 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --background-rgb: 250, 239, 221;
+  --foreground-rgb: 0, 0, 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-rgb: 29, 31, 34;
+    --foreground-rgb: 255, 255, 255;
+  }
+}
+
 body {
-  @apply text-[#292420] bg-[#faefdd];
+  background-color: rgb(var(--background-rgb));
+  color: rgb(var(--foreground-rgb));
 }
 
 @layer utilities {
@@ -32,7 +45,7 @@ h2 {
 
 img {
   @apply p-4;
-  border: 0.5px solid #2c2622;
+  border: 0.5px solid rgb(var(--foreground-rgb));
 }
 
 p,
