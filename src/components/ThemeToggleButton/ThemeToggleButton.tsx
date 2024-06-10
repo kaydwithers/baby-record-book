@@ -6,6 +6,8 @@ export const ThemeToggleButton = () => {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <button onClick={toggleTheme}>{theme === "light" ? "🌛" : "🌞"}</button>
+    <button onClick={toggleTheme} className="motion-safe:animate-bounce">
+      {theme === "light" ? "🌛" : "🌞"}
+    </button>
   );
 };
