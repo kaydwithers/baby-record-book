@@ -19,19 +19,23 @@
 
 a {
   @apply underline underline-offset-4;
+
+  &:hover {
+    @apply no-underline;
+  }
 }
 
-a:hover {
-  @apply no-underline;
+h1,
+h2,
+strong {
+  @apply font-semibold;
 }
 
 h1 {
-  @apply font-semibold;
   font-size: max(40px, min(5vw, 60px));
 }
 
 h2 {
-  @apply font-semibold;
   font-size: max(20px, min(2vw, 40px));
 }
 
@@ -43,10 +47,6 @@ textarea {
 
 textarea {
   @apply bg-transparent border-b-4 border-b-slate-500 border-dashed;
-}
-
-strong {
-  @apply font-semibold;
 }
 
 .image {
