@@ -7,14 +7,46 @@
   --rgb-light: 250, 239, 221;
 }
 
-.light {
+html {
   background-color: rgb(var(--rgb-light));
   color: rgb(var(--rgb-dark));
 }
 
-.dark {
+.bg-primary {
+  background-color: rgb(var(--rgb-light));
+}
+
+.bg-secondary {
+  background-color: rgb(var(--rgb-dark));
+}
+
+.text-primary {
+  color: rgb(var(--rgb-light));
+}
+
+.text-secondary {
+  color: rgb(var(--rgb-dark));
+}
+
+html.dark {
   background-color: rgb(var(--rgb-dark));
   color: rgb(var(--rgb-light));
+
+  & .bg-primary {
+    background-color: rgb(var(--rgb-dark));
+  }
+
+  & .bg-secondary {
+    background-color: rgb(var(--rgb-light));
+  }
+
+  & .text-primary {
+    color: rgb(var(--rgb-dark));
+  }
+
+  & .text-secondary {
+    color: rgb(var(--rgb-light));
+  }
 }
 
 a {

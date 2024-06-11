@@ -6,7 +6,7 @@ import { ThemeToggleButton } from "@/components/ThemeToggleButton/ThemeToggleBut
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Home() {
+const Home = () => {
   return (
     <div className="flex flex-col gap-y-8 lg:gap-y-12 text-center">
       <Heading>Baby Record Book</Heading>
@@ -52,4 +52,6 @@ export default function Home() {
       </div>
     </div>
   );
-}
+};
+
+export default Home;

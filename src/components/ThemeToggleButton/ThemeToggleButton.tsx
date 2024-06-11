@@ -7,7 +7,7 @@ export const ThemeToggleButton = () => {
 
   return (
     <button onClick={toggleTheme} className="motion-safe:animate-bounce">
-      {theme === "light" ? "🌛" : "🌞"}
+      {theme === "dark" ? "🌞" : "🌛"}
     </button>
   );
 };
