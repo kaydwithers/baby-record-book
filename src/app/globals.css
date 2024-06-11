@@ -2,50 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --rgb-dark: 29, 31, 34;
-  --rgb-light: 250, 239, 221;
-}
-
-html {
-  background-color: rgb(var(--rgb-light));
-  color: rgb(var(--rgb-dark));
-}
-
-.bg-primary {
-  background-color: rgb(var(--rgb-light));
-}
-
-.bg-secondary {
-  background-color: rgb(var(--rgb-dark));
-}
-
-.text-primary {
-  color: rgb(var(--rgb-light));
-}
-
-.text-secondary {
-  color: rgb(var(--rgb-dark));
-}
-
-html.dark {
-  background-color: rgb(var(--rgb-dark));
-  color: rgb(var(--rgb-light));
-
-  & .bg-primary {
-    background-color: rgb(var(--rgb-dark));
-  }
-
-  & .bg-secondary {
-    background-color: rgb(var(--rgb-light));
-  }
-
-  & .text-primary {
-    color: rgb(var(--rgb-dark));
-  }
-
-  & .text-secondary {
-    color: rgb(var(--rgb-light));
+@layer base {
+  :root {
+    --color-primary: 29 31 34;
+    --color-secondary: 250 239 221;
   }
 }
 
@@ -71,10 +31,21 @@ h2 {
   font-size: max(20px, min(2vw, 40px));
 }
 
+a,
 p,
+input,
+label,
 li,
 textarea {
   font-size: max(16px, min(2vw, 20px));
+}
+
+input {
+  @apply px-4 py-2 rounded-md bg-secondary dark:bg-primary border border-primary dark:border-secondary text-primary dark:text-secondary w-full;
+}
+
+label {
+  @apply block pb-4;
 }
 
 textarea {

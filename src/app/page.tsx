@@ -19,11 +19,11 @@ const Home = () => {
             <Image
               className="w-full h-full aspect-auto"
               src="/image/chloe.jpg"
-              alt=""
+              alt="Chloe"
               height="480"
               width="480"
               sizes="(max-width: 600px) 280px, 480px"
-              layout="responsive"
+              priority
             />
           </div>
         </div>
