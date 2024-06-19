@@ -18,7 +18,7 @@ const Auth = () => {
   };
 
   return (
-    <div className="w-96 mx-auto">
+    <div className="w-full lg:w-96 mx-auto">
       <div className="mb-8">
         <Heading variant="h2">{isLoginMode ? "Sign up" : "Sign in"}</Heading>
       </div>

@@ -24,7 +24,7 @@ const RootLayout = ({
       <body
         className={`${lora.className} bg-secondary dark:bg-primary text-primary dark:text-secondary`}
       >
-        <main className="m-4 lg:m-6 border border-current min-h-screen">
+        <main className="m-4 lg:m-6 border border-current">
           <div className="container mx-auto px-6 py-12 lg:px-24 lg:py-24 w-full">
             <ThemeProvider>
               <Header />

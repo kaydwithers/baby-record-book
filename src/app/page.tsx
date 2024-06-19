@@ -31,22 +31,22 @@ const Home = () => {
 
       <ol className="flex flex-col gap-y-4 lg:gap-y-6">
         {chapters.map((item, index) => (
-          <li key={item.id} className="">
+          <li key={item.id}>
             {index + 1}. <Link href={item.id}>{item.title}</Link>
           </li>
         ))}
       </ol>
 
       <div className="flex flex-wrap justify-center items-center text-4xl gap-2">
-        <div className="">🦒</div>
-        <div className="">👶</div>
-        <div className="">🐢</div>
-        <div className="">🧸</div>
-        <div className="">🐼</div>
-        <div className="">🐱</div>
-        <div className="">🐶</div>
-        <div className="">🦋</div>
-        <div className="">
+        <div>🦒</div>
+        <div>👶</div>
+        <div>🐢</div>
+        <div>🧸</div>
+        <div>🐼</div>
+        <div>🐱</div>
+        <div>🐶</div>
+        <div>🦋</div>
+        <div>
           <ThemeToggleButton />
         </div>
       </div>
